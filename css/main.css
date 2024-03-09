@@ -1,0 +1,337 @@
+body {
+
+    background-color: #d8dbe1;
+
+}
+
+/*css property linked to index.html all rights reserved*/
+
+/*font configuration prefix*/
+
+.title-text {
+
+    font-family: 'Lato', sans-serif;
+    font-size: 40px;
+
+}
+
+.subtitle {
+
+    font-family: 'Lato', sans-serif;
+    font-size: 25px;
+
+}
+
+.discription-title {
+
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+
+}
+
+.discription {
+
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    font-weight: light;
+    line-height: 2.5vh;
+
+}
+
+  /*FLOAT CLEARFIX*/
+
+  .clearfix::after {
+
+    content: "";
+    clear: both;
+    display: block;
+
+  }
+
+  .float--left {
+
+    float: left;
+
+  }
+
+  .float--right {
+
+    float: right;
+
+  }
+
+
+
+/*main bodywork, framework configuration*/
+
+.inner {
+
+    width: 1250px; 
+    height: 100vh;
+    margin: 0 auto;   
+
+}
+
+/* header framework configuration*/
+
+.header {
+
+    /*background-color: blue;*/
+    width: 100%;
+    height: 200px;
+    margin-top: 30px;
+
+}
+
+.header .image-section {
+
+    /*background: red;*/
+    width: 20%;
+    height: 100%;
+    position: relative;
+
+}
+
+/*header image configuration */
+
+.header .image-section img {
+
+    width: 60%;
+    border-radius: 50%;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+
+}
+
+/* header text section configuation.*/
+
+.header .text-section {
+
+    /*background: green;*/
+    width: 80%;
+    height: 100%;
+    /* configured the width by %*/
+    display: flex;
+    align-items: center; /* this does the align horizontally*/
+
+}
+
+.header .text-section .text-wraper .full-page-title {
+    
+    width: 100%;
+
+}
+
+.header .text-section .text-wraper .discription {
+
+    margin-top: 20px;
+
+}
+
+/* content section configuration*/
+
+.content {
+
+    /*background: blue;*/
+    width: 100%;
+    height: 450px;
+
+}
+
+.content .content-wraper {
+
+
+    height: 100%;
+    padding-top: 1.5%;
+    padding-bottom: 1.5%;
+
+}
+
+/*introduction section css configuration.*/
+
+.content .introduction {
+
+    background: #eeeff1;
+    width: 58.5%;
+    height: 97%;
+    /*margin-left: 1.5%;*/
+    border-radius: 10px;;
+
+}
+
+.content .introduction .introduction-wraper {
+
+    width: 90%;
+    /*background-color: red;*/
+    margin: 0 auto;
+    height: 100%;
+
+}
+
+.content .introduction .introduction-wraper .introduction-text-wraper {
+
+    padding-top: 30px;
+
+}
+
+.content .introduction .introduction-wraper .introduction-text-wraper .discription {
+
+    padding-top: 20px;
+
+}
+
+/*content introduction skills section css configuration.*/
+
+.content .introduction .introduction-wraper .introduction-skills-wraper {
+
+    /*background: magenta;*/
+    width: 100%;
+    padding-top: 30px;
+    
+
+}
+
+.content .introduction .introduction-wraper .introduction-skills-wraper .introduction-skills-element-wraper {
+
+    /*background: coral;*/
+    width: 100%;
+    height: 230px;
+
+}
+
+.content .introduction .introduction-wraper .introduction-skills-wraper .introduction-skills-element-wraper .quarter-divider {
+
+    width: 25%;
+    height: 230px;;
+    float: left;
+
+}
+
+.content .introduction .introduction-wraper .introduction-skills-wraper .introduction-skills-element-wraper .quarter-divider img {
+
+    width: 60%;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+
+}
+
+.content .introduction .introduction-wraper .introduction-skills-wraper .introduction-skills-element-wraper .quarter-divider .discription-title {
+
+    text-align: center;
+    margin-top: 10px;
+
+}
+
+.content .introduction .introduction-wraper .introduction-skills-wraper .introduction-skills-element-wraper .quarter-divider .discription {
+
+    text-align: center;
+    line-height: 1.7vh;
+    margin-top: 10px;
+    font-size: 14px;
+    display: none; /*display none for right now.*/
+
+}
+
+.content .introduction .introduction-wraper .introduction-skills-wraper .introduction-skills-element-wraper .four .discription-title {
+
+    margin-top: 24px;
+
+}
+
+/*content section css configuration. still frameworking process*/
+
+.content .contacts {
+
+    background-color: #eeeff1;
+    width: 40%;
+    height: 97%;
+    /*margin-right: 1.5%;*/
+    border-radius: 10px;
+
+}
+
+.content .contacts .contact-wraper {
+
+    /*background: magenta;*/
+    width: 85%;
+    height: 100%;
+    margin: 0 auto;
+
+}
+
+.content .contacts .contact-text-wraper {
+
+    /*background: coral;*/
+    width: 100%;
+    height: 20%;
+    padding-top: 30px;
+
+}
+
+.content .contacts .contact-content-wraper {
+
+    /*background: blue;*/
+    width: 100%;
+    height: 80%;
+    color: white;
+
+}
+
+.content .contacts .contact-content-wraper .toprow {
+
+    width: 100%;
+    height: 50%;
+    /*background: red;*/
+    color: white;
+
+}
+
+.content .contacts .contact-content-wraper .bottomrow {
+
+    width: 100%;
+    height: 50%;
+    /*background: cyan;*/
+    color: white;
+
+}
+
+/*left and right collum configuration*/
+
+.content .contacts .contact-content-wraper .left-content {
+
+    /*background: blue;*/
+    height: 100%;
+    width: 50%;
+    color: whtie;
+
+}
+
+.content .contacts .contact-content-wraper .right-content {
+
+    /*background: pink;*/
+    height: 100%;
+    width: 50%;
+    color: white;
+
+}
+
+/*footer framework configuration */
+
+footer {
+
+    /*background: purple;*/
+    width: 100%;
+    height: 40px;
+    padding-top: 3%;
+
+}
+
